@@ -1,8 +1,10 @@
 import React from "react";
+import './styles.css';
+import Home from "./pages/Home/Home";
 
 const App= ()=>{
     return(
-        <h1>Hello Worldddd!</h1>
+        <Home/>
     )
 }
 
