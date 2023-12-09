@@ -8,17 +8,21 @@ const Home = () => {
       style={{
         margin:'0px',
         padding:'0px',
-        backgroundImage: `url(${IMAGE})`,
-        height:'100%',
-        width:'100%'
+        height:'110vh',
+        width:'100%',
+        background: `linear-gradient(0deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.38) 100%), url(${IMAGE}), lightgray 50% / cover no-repeat`,
+        // backgroundSize: 'contain',
+        resize: 'both',
+        // backgroundRepeat:'no-repeat'
+        // overflow: 'scroll'
       }}
     >
-      <div className="" id="title-container">
+      <div className="container-fluid" id="title-container">
         <div className="row"> 
-          <div className="col-sm-10 offset-sm-1 col-md-5 offset-md-1 ">
+          <div className="col-md-10 offset-md-1 col-lg-5 offset-lg-1 ">
             <Title/>
           </div>
-          <div className="col-sm-12 col-md-6">
+          <div className="col-md-12 col-lg-6" id="login-row">
             <Login />
           </div>
 
