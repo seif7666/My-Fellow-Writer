@@ -9,7 +9,9 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... } */
-
+html{
+  height: 100vh;
+}
 body {
   height: 100vh;
   font-family: heebo;

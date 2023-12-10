@@ -8,13 +8,11 @@ const Home = () => {
       style={{
         margin:'0px',
         padding:'0px',
-        height:'110vh',
-        width:'100%',
+        height:'100vh',
+        width:'100vw',
         background: `linear-gradient(0deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.38) 100%), url(${IMAGE}), lightgray 50% / cover no-repeat`,
-        // backgroundSize: 'contain',
         resize: 'both',
-        // backgroundRepeat:'no-repeat'
-        // overflow: 'scroll'
+        backgroundRepeat:'no-repeat'
       }}
     >
       <div className="container-fluid" id="title-container">
